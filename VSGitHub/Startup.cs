@@ -53,7 +53,7 @@ namespace VSGitHub
             {
                 endpoints.MapGet("/" , async context =>
                 {
-                    await context.Response.WriteAsync("Hello world!");
+                    await context.Response.WriteAsync("Hello first nchange!");
                 });
             });
         }
